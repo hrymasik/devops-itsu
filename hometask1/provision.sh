@@ -13,3 +13,4 @@ sudo firewall-cmd --permanent --zone=public --add-service=https
 sudo firewall-cmd --reload
 
 sudo systemctl enable nginx
+echo "<h1>This hometask was done by Maksym Hrynak ;)</h1>" > /usr/share/nginx/html/index.html
