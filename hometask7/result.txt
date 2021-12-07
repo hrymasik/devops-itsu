@@ -1,0 +1,2 @@
+3. ssh -D 4522 -p 4522 -i id_rsa root@yoko.ukrtux.com
+4. ssh -R 14522:192.168.33.10:80 -p 4522 -i id_rsa root@yoko.ukrtux.com
